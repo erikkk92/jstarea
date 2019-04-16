@@ -1,0 +1,75 @@
+body {
+  background-color: red;
+  font-size: 22px;
+  font-style: italic;
+}
+
+#new-task {
+  margin: 0 0 15px;
+  padding: 20px 20px 20px 20px;
+  border: 5px solid black;
+  border-radius: 15px; 
+}
+
+#new-task:hover {
+  background-color: silver;
+  border: 5px solid blue;
+}
+
+div {
+  text-align:center;
+}
+
+h1 {
+  color: green;
+  font-size: 1.7em;
+  font-style: italic;
+}
+
+h2 {
+  color: green;
+  font-size: 1.2em;
+  font-style: italic;
+}
+
+.add {
+  background-color: blue;
+  border: 3px solid white;
+  border-radius: 8px;
+  color: yellow;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+#incomplete-tasks, #completed-tasks {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.edit {
+  background-color: black;
+  border: 3px solid white;
+  border-radius: 8px;
+  color: yellow;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.delete {
+  background-color: yellow;
+  border: 3px solid white;
+  border-radius: 8px;
+  color: gray;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.edit:hover, .delete:hover, .add:hover {
+  background-color: green;
+  color: white;
+}
+
